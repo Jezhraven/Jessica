@@ -1,0 +1,82 @@
+body {
+    background-image: url('https://img.freepik.com/free-photo/top-close-up-view-vegetables-tomatoes-with-pedicels-garlic-bell-peppers-lemon-oil-onion_140725-72203.jpg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+footer {
+    background-color: #9393f8;
+    padding: 30px 0;
+    color: #333;
+    text-align: center; /* Center align content */
+    border-top: 1px solid #f3c3c3; /* Add a border at the top */
+  }
+  
+  footer h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  footer p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  /* Style for the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Style for the social icons */
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  color: #333;
+  border-radius: 50%;
+  line-height: 40px;
+  margin: 0 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.social-icon:hover {
+  background-color: #4267B2; /* Change to the color of your choice */
+  color: #fff;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.gallery-item {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-item img {
+  max-width: 100%;
+  height: auto;
+}
+
